@@ -1,0 +1,41 @@
+1.
+	a)  b 16
+			b factorial
+	b)  The first problem was that the for loop in the factorial function used 'i<=num' as a condition but also overwrote the 'num' value to 0 the first time through the loop (this was solved by creating a second variable to hold the factorial value rather than using the original num). The second problem was that i was initialized to 0 so that the variable holding the factorial value was made to be 0 on the first iteration and then remained 0 since the funtion multiplied i by the previous value each time through (this was solved by initializing i=1).
+	c) b 16, b factorial, r, s, s, p num, s, s, p num, s, p num
+
+4.
+	size(n) = Theta(n)
+		The size() function merely traverses the list from start to finish. Therefore, for any given input, it will have to do at most AND at least a factor of n operations.
+
+	insert(n) = Theta(n)
+		The insert() function calls the size function and then, in worst case, traverses the list to the end before inserting. This means that in worst case it has to do at most AND at least a factor of n operations.
+
+	remove(n) = Theta(n)
+		The remove() function calls the size function and then, in worst case, traverses the list to the end before removing. This means that in worst case it has to do at most AND at least a factor of n operations.
+
+	set(n) = Theta(n)
+		The set() function calls the size function and then, in worst case, traverses the list to the end before setting. This means that in worst case it has to do at most AND at least a factor of n operations.
+
+	get(n) = Theta(n)
+		The get() function calls the size function and then, in worst case, traverses the list to the end before getting. This means that in worst case it has to do at most AND at least a factor of n operations.
+
+6.
+		size(n) = Theta(n)
+			My map member function for size just calls my list size member function which has a Theta(n) runtime.
+
+		add() & remove() both = Theta(n^2)
+			In worst case, both functions iterate through the entire list repeatedly calling a 'list' member function that also iterates through the entire list yielding an n^2 factor runtime.
+
+		get() = Theta(n)
+			All this function does is iterate straigh through the list until it finds the correct element.
+	
+
+
+
+
+
+
+
+
+

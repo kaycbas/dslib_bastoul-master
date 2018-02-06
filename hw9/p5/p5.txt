@@ -1,0 +1,7 @@
+Part a)
+
+The probability a bucket gets an item on any given insertion is 1/m. Thus the probability it doesn't get an insertion is (1-1/m). Over the course of n insertions, the probability it doesn't get an item is then (1-1/m)^n. This probability is for the individual buckets and thus if we multiply it by the number of buckets we get the estimate for number of empty buckets: m(1-1/m)^n
+
+Part b)
+
+

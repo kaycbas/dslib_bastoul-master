@@ -1,0 +1,12 @@
+__INSERT TIMES__
+List 0 front insert time: 0.76
+List 1 back insert time: 0.78
+List 2 front insert time: 3.68
+List 3 back insert time: 1.53
+List 4 front insert time: 1.05
+List 5 back insert time: 0.15
+List 6 front insert time: 0.78
+List 7 back insert time: 0
+
+
+List 7 back insert time is always 0 due to some problem with the clock(). I wasn't able to fix the bug in time.

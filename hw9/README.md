@@ -1,0 +1,1 @@
+1) The matcher needs to be compiled with the flag -std=c++11 in order to include the unordered set and map. However 'make' doesn't properly include the correct information, despite the exact same command line argument being included in the Makefile. So for p4, it needs to be compiled from the command line with:  g++ -o matcher matcher.cpp -std=c++1 

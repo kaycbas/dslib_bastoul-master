@@ -1,0 +1,17 @@
+1.
+	a. 1
+	b. rm -f ./ *.o*~shape1 shape2 ./*/
+		g++ -o $@ $^ -I. -lm
+	c. A .PHONY rule helps the file distinguish between targets that are actual 			files and targets that are non-file commands. If they have the same name 				(ie. clean) the compiler could otherwise get confused.
+	d. 2, 4
+2. 
+	a. unmodified
+	b. README.md has been modified but not staged for commit
+	c. README.md is staged for commit
+	d. Both are modified but not staged
+	e. Both are staged. fun_problem.txt was modified but its changes were then 				discarded so its contents are the same as last it was staged.
+	f. modified, a line was added to it
+	g. Markdown is easy
+			Markdown is too easy
+			Fancy git move
+
